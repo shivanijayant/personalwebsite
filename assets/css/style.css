@@ -511,6 +511,31 @@ section {
   background-color: #0563bb;
 }
 
+
+.skills-container {
+  text-align: center;
+}
+.skills img {
+  width: 50px; /* Adjust the size as necessary */
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.category h3 {
+  font-size: 1em;
+  color: #333;
+  margin: 1em 0;
+}
+
+
+/* Add responsive design as necessary */
+@media (max-width: 600px) {
+  .skills img {
+      width: 30px;
+      margin: 0 5px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -554,6 +579,7 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-weight: 400;
 }
 
 .resume .resume-item:last-child {
